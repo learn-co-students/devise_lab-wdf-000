@@ -1,0 +1,8 @@
+<h1>Welcome#home</h1>
+<h1>Home</h1>
+
+<%= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook) %>
+
+<a href="#">Sign up</a>
+
+<%= link_to "Sign out", destroy_user_session_path(:facebook) %>
