@@ -9,6 +9,8 @@
 <body>
 
 <%= yield %>
+<p class="notice"><%= magic(notice) if notice %></p>
+<p class="alert"><%= magic(alert) if alert %></p>
 
 </body>
 </html>
