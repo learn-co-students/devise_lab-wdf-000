@@ -37,6 +37,7 @@ gem 'devise_invitable'
 gem 'high_voltage'
 gem 'omniauth'
 gem 'omniauth-github'
+gem 'figaro'
 
 group :development do
   gem 'better_errors'
