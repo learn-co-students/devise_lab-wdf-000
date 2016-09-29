@@ -35,9 +35,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem 'devise_invitable'
 gem 'high_voltage'
+gem 'omniauth'
+gem 'omniauth-github'
+gem 'figaro'
 
 group :development do
   gem 'better_errors'
+  gem 'binding_of_caller'
   gem 'quiet_assets'
   gem 'rails_layout'
   gem 'spring-commands-rspec'

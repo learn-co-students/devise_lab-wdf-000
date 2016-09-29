@@ -77,3 +77,9 @@ bower.json
 # Ignore Byebug command history file.
 .byebug_history
 *.swp
+<<<<<<< HEAD
+=======
+
+# Ignore application configuration
+/config/application.yml
+>>>>>>> dev2
