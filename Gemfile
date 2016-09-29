@@ -35,7 +35,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem 'devise_invitable'
 gem 'high_voltage'
-gem 'sqlite3'
+
 group :development do
   gem 'better_errors'
   gem 'quiet_assets'
@@ -43,6 +43,7 @@ group :development do
   gem 'spring-commands-rspec'
 end
 group :development, :test do
+  gem 'pry-rails'
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails'
