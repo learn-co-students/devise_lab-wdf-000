@@ -1,2 +1,2 @@
-<h1>Welcome <%= current_user.name %></h1>
-<p><%= current_user.email %></p>
+<h1>Welcome</h1>
+<p><%= current_user.email if current_user %></p>
