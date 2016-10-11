@@ -6,6 +6,10 @@ Rails.application.routes.draw do
 
   get '/about', to: 'welcomes#home'
 
+  # devise_for :users
+  # root "welcome#home"
+  # get "/about" => "welcome#about"
+  #SOLUTION ABOVE
 
 
   devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
